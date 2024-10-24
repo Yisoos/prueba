@@ -22,15 +22,15 @@ public class Inventory : MonoBehaviour
         updateInventory.UpdateUI();
 
     }
-    public void RemoveItem(Item itemRemoved)
+    public void RemoveItem(Item itemRemoved, int quantity)
     {
         Item item = items.Find(i => i.itemName == itemRemoved.itemName);
         Debug.Log(item.quantity);
         if (item != null)
         {
-            if (item.quantity-itemRemoved.quantity > 1) 
+            if (item.quantity-quantity >= 1) 
             {
-                item.quantity -= itemRemoved.quantity; 
+                item.quantity -= quantity; 
                 Debug.Log($"Eliminado {itemRemoved.quantity} item/s del inventario");
             }
             else

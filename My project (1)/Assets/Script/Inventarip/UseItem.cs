@@ -29,6 +29,6 @@ public class UseItem : MonoBehaviour
             default: 
                 break;
         }
-        inventory.RemoveItem(item);
+        inventory.RemoveItem(item, 1);
     }
 }
