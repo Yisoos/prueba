@@ -10,7 +10,10 @@ public class ItemPickUp : MonoBehaviour
 
     public void OnTriggerEnter()
     {
+        if (!playerInventory.IsInventoryFull(item))
+        {
         playerInventory.AddItem(item);
         gameObject.SetActive(false);
+        }
     }
 }

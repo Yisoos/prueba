@@ -6,6 +6,7 @@ public class Inventory : MonoBehaviour
 {
     public List<Item> items = new List<Item>();
     public InventoryUI updateInventory;
+    public int maxInventorySlots;
     // Start is called before the first frame update
    
     public void AddItem(Item newItem) 
@@ -25,18 +26,18 @@ public class Inventory : MonoBehaviour
     public void RemoveItem(Item itemRemoved, int quantity)
     {
         Item item = items.Find(i => i.itemName == itemRemoved.itemName);
-        Debug.Log(item.quantity);
+        //Debug.Log(item.quantity);
         if (item != null)
         {
             if (item.quantity-quantity >= 1) 
             {
                 item.quantity -= quantity; 
-                Debug.Log($"Eliminado {itemRemoved.quantity} item/s del inventario");
+               // Debug.Log($"Eliminado {itemRemoved.quantity} item/s del inventario");
             }
             else
             {
             items.Remove(item);
-            Debug.Log("Eliminado el item del inventario");
+           // Debug.Log("Eliminado el item del inventario");
             }
         }
         else
@@ -44,5 +45,25 @@ public class Inventory : MonoBehaviour
             Debug.Log("El objeto no existe en el inventario");
         }
         updateInventory.UpdateUI();
+    }
+    public bool IsInventoryFull(Item checkItem) 
+    {
+        if ((items.Count >= maxInventorySlots && !items.Exists(item => item.itemName == checkItem.itemName)))
+        {
+            Debug.Log("tu inventario está lleno!");
+            return true;
+        }
+        else
+        {
+            if (items.Count >= maxInventorySlots && !checkItem.acumulable)
+            {
+                Debug.Log("tu inventario está lleno!");
+                return true; 
+            }
+            else
+            {
+                return false; 
+            }
+        }
     }
 }
