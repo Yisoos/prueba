@@ -16,7 +16,7 @@ public class DataUpdater : MonoBehaviour
         {
             textUpdater.nameInputField.text = textUpdater.datosGlobales.nombreJugador;
         }
-            CambiarNombreJugador();
+        CambiarNombreJugador();
         CambiarDificultad(textUpdater.datosGlobales.dificultad);
         CambiarPuntuación(0);
     }
@@ -49,7 +49,7 @@ public class DataUpdater : MonoBehaviour
         
         if (textUpdater != null)
         {
-            textUpdater.UpdateTextPlayerName();
+            textUpdater.UpdateTextDifficulty();
         }
     }
     public void CambiarPuntuación(int nuevaPuntuacion)
