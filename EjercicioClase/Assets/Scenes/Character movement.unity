@@ -1178,7 +1178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1512163102}
   animator: {fileID: 1512163099}
-  runSpeed: 40
+  runSpeed: 30
 --- !u!61 &1512163104
 BoxCollider2D:
   m_ObjectHideFlags: 0
