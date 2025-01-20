@@ -1416,6 +1416,7 @@ GameObject:
   - component: {fileID: 606603402}
   - component: {fileID: 606603401}
   - component: {fileID: 606603403}
+  - component: {fileID: 606603404}
   m_Layer: 0
   m_Name: DataUpdater
   m_TagString: Untagged
@@ -1473,6 +1474,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d0208e699bfaf144b4bfcd1260c321b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &606603404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606603400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115ac2b3134ef294a883b10d5358a3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estadoEmocional: {fileID: 11400000, guid: e4a0fba07fc96b348a36182e6b6a839c, type: 2}
 --- !u!1 &708590930
 GameObject:
   m_ObjectHideFlags: 0
@@ -2611,7 +2625,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 119.704956, y: 98}
+  m_AnchoredPosition: {x: 119.70508, y: 98}
   m_SizeDelta: {x: 73.06, y: 52.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1977047446
