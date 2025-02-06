@@ -7,6 +7,7 @@ public class PlayerMovementController : MonoBehaviour
     [Range(0, 10)] public float speed = 5.0f;
     [Range(0, 200)] public float rotationSpeed = 100.0F;
     [Range(0, 100)] public float jumpForce = 40;
+    [Range(0, 100)] public int pushSpeedDeccrease;
 
     private Animator animator;
     Vector2 previousmMovement;
