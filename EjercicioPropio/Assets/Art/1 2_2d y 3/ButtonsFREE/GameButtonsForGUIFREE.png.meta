@@ -1,0 +1,4012 @@
+fileFormatVersion: 2
+guid: e1ca9dc499bde5047aab2684cd50aa7f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 531
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af660d416ef542459a8d87f28c166ff
+      internalID: 11830717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 531
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d79799971b53445b477b3f95058fd5
+      internalID: 1660708146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 531
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f6214455df3a340bf74fd02f5a876e
+      internalID: 630798857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 531
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7329dc3fb47843345a9c94a4477d2a8f
+      internalID: 1966705557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 531
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888f113f408a07e4cb8d5f96bb8bf50a
+      internalID: 1626099451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_5
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 531
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2f43de6cc7cae419644d3204e74972
+      internalID: -754593984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_6
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 531
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e787ce9e4e837e4b884fab41721ce0f
+      internalID: -2051124280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_7
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 531
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd3910097b74944ca3e6444ec2c13c2
+      internalID: 1463586748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 483
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1082f2cf265cd174e9ff0a36967a7a05
+      internalID: -2012807952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 483
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89f1abc5a46369479eda64775c8f8cf
+      internalID: 1902085298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 483
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f52dbb0ff4d59b479c2c41621899cfb
+      internalID: 2042813825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_11
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 483
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ce1687641b0f442a0a8ed9a3cca89d
+      internalID: 1592424472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_12
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 483
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ee7bdc389117f4a87195c8dec50351
+      internalID: 1037006083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_13
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 483
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe0356b239d96042a09bc9416b86216
+      internalID: -618595877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_14
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 483
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b0fa62dcafa6b4ba29517f6f5c1593
+      internalID: -902651677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_15
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 483
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d88e06757124a0469ef7ae65b88d018
+      internalID: -362033328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 435
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e33f085623e0148b478177515a9164
+      internalID: -36116277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 435
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc2f7dde015a4f42b72f23bfaa56c8a
+      internalID: -317143542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 435
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1c21fad3eaa8b49a5d059fe13f173c
+      internalID: -147279492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_19
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 435
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d9ece35f1c166418d89af5f5d45b07
+      internalID: 1283234218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 435
+        width: 87
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe18a6b72100934393b18ab258340d2
+      internalID: 922412593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_21
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 435
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e99df1aa6870654d9e0b6f8d8ff661f
+      internalID: 391351693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_22
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 435
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a96c0dfe6dc87478102503190954fa
+      internalID: 1241847495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_23
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 435
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c420745f9060314b976a51658c4961f
+      internalID: -1760332789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 387
+        width: 86
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce1f1cf72f123240819e968475f626e
+      internalID: -1038362102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 387
+        width: 86
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4f8ec25d6c9704a9453be53b5fcbc3
+      internalID: -1961148862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_26
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 387
+        width: 87
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defbec22ecec1af47ba8d07ae182beb6
+      internalID: 62833314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_27
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 387
+        width: 87
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebef909c3ea50a4ab6a90a452e8237b
+      internalID: -1788205137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_28
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 387
+        width: 87
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1532dcd0a8b2d1b4492a5347c7938888
+      internalID: 1258835151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_29
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 387
+        width: 86
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea192b000be86b489fb7477f1079a62
+      internalID: 1566386168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_30
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 387
+        width: 86
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8c3b6c983524849be10a51ee55ee8d
+      internalID: -501705924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_31
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 387
+        width: 86
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e834b7b1b2225438130649dd2d7503
+      internalID: -1558166734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 331
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419b46f3fafb0e34b86ba8c0c67b8851
+      internalID: 507450168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_33
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 331
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbc688bd56ce7b48b2321edcff1f5f0
+      internalID: 153451740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_34
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 331
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1c8d4c933b374468598a049196be62
+      internalID: -1778866080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_35
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 331
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bef094ce924a6d4bb16cf43cfe10aa5
+      internalID: -1608767612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_36
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 331
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61168f12543aede45977cda2611eb5e4
+      internalID: -1510695660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_37
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 331
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd116e2d4284db4b9a890437afe4a7e
+      internalID: 386959909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_38
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 331
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed285ab05651d0a409ccb4b5595e223f
+      internalID: -1667529730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_39
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 331
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089f025f004c3ae4ea8ae68cff356b46
+      internalID: -1267759191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_40
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 331
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf88369ce15d04469fe86464f0cc0e8
+      internalID: -1303619772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_41
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 331
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309130862ab4fe141a0269eb2cdd5129
+      internalID: 323779618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_42
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 331
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b851cf496ec26d844aeab5a0aaee357e
+      internalID: -1350833769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_43
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 331
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05bfc91828b682418e215319fd7c86c
+      internalID: -1797592552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_44
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 331
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d3d62afed3f9840a27d75833f054c9
+      internalID: 1726807046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_45
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 331
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96dd4a01082dbf49b600cda3f01c61c
+      internalID: 2015325790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_46
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 331
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf3cebffd3098c46ab516f262916f42
+      internalID: 509586204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_47
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 331
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab94efa073433147941b55c31e8a219
+      internalID: -536139841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_48
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 331
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13f5f61748cdc64f9d36e709e264e8f
+      internalID: -1813245601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_49
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 331
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9566e2196d1156b48bc1bd0bad1fc378
+      internalID: 19655705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_50
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 286
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b636458b309e9fb46a98a808eb81af4f
+      internalID: -69116372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_51
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 286
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b29aff7b57590e4db43f551122dc8b3
+      internalID: 711898189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_52
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 286
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e612701d495064d49b2f2ceaaf511a6f
+      internalID: -1965663683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_53
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 286
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667a05bf4dbf58e48be81e918f458d92
+      internalID: 1183756922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_54
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 286
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab7e65dda8c876419dfc125df72586a
+      internalID: 1647436069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_55
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 286
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3724c70a574c8da46ba0ea6e3cfdb207
+      internalID: 1262464863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_56
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 286
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d2d3dc72128764c8d69c34359cdce0
+      internalID: -1842774964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_57
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 286
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38fa80827183504eb13a3965e72095b
+      internalID: -239379261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_58
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 286
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689782ce5a347d246bed6ebe6c17ce31
+      internalID: -1803185725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_59
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 286
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9308db527f31e2f4e9c23ffe4883a255
+      internalID: 1395248096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_60
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 286
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a39ddb6df594ed47980f48da2b59a8f
+      internalID: 1152097404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_61
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 286
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d251fbc10c67a5846a16f339068cdaeb
+      internalID: -443706153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_62
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 286
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9205711c2eb3a004b8a8330c22c7c4d9
+      internalID: 1028940322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_63
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 286
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4154c7c13bffbf4bac83d18172ba50e
+      internalID: 102588989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_64
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 286
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aefa81a56564dd4b9bb0fd4d29291b7
+      internalID: 311401641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_65
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 286
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268579e3e9c4f0445abfa6742ff1bd0b
+      internalID: -247551857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_66
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 286
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69a436e0a31ccf4a980fc71475626e1
+      internalID: 736851872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_67
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 286
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59219f0fd5e35ff429d36e34b228ab70
+      internalID: 1053580253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_68
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 240
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b73987598cc93d47838d12b109d083a
+      internalID: -1846668077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_69
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 240
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e22ea784c26734a93b0bc5984123b6
+      internalID: -648831527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_70
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 240
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a636bfb53b432b42b1a5a4f7578ad19
+      internalID: 29167480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_71
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 240
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49669a431b59f5245aa50460fa406dbd
+      internalID: 124195627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_72
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 240
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee2d00f8d4590340a7f6974b1d51419
+      internalID: -750483232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_73
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 240
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f6ba37b5195db45bd8462255bb6328
+      internalID: -1521308066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_74
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 240
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580bf9d77febd2141af2e68e76f168c1
+      internalID: 906836212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_75
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 240
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72493cf6cab90a84b853e66badfb93c7
+      internalID: 472309690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_76
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 240
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590e50319364af341b138b6ea562c55e
+      internalID: -1738213697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_77
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 240
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940b386192d21d54e8e2273b6d9f1c51
+      internalID: 132385452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_78
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 240
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a54635307f576a4a87b7ac5d87feff0
+      internalID: -1896458991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_79
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 240
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76b666a565519d4ba7d0f390ed92c8c
+      internalID: 322419611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_80
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 240
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b5c60eb28fdab47ad2d624c8569040
+      internalID: 206199521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_81
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 240
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbf17ccaf7d2e04c9752fcb71d32c50
+      internalID: -1428762360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_82
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 240
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24ab59bbbe77534ba0f1fa15cac1b98
+      internalID: -1226577965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_83
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 240
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c4dce2e047bd441bb25a62076e2138
+      internalID: -326742748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_84
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 240
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8243828e80597484ba8aeb67e3cf4f01
+      internalID: -715346927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_85
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 240
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c197aaa8a963ed47914a133d4854faa
+      internalID: 1210625907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_86
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 194
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3ed1b1e6f47054384abd2a92fd21e1
+      internalID: -995732299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_87
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 194
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf80cba01398a244b6c2a2f06b4e91e
+      internalID: -1715319630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_88
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 194
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ca41350ab510449a27f92381094b23
+      internalID: -1801724995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_89
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 194
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a67bf9053e95a54889de4bed34f51bc
+      internalID: 1755087323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_90
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 194
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc93468f3630a204285b22bbe997f204
+      internalID: 1774508131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_91
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 194
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41ede54c56c1e549af2fc8a3d718f86
+      internalID: 1794983393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_92
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 194
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ef3abe3edb9aa489f89223172db433
+      internalID: 1700834713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_93
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 194
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401d63a125e280443a42b21b531d4b57
+      internalID: 1422733468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_94
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 194
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a53396476233041bdd7a0bb9520705
+      internalID: 2077939953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_95
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 194
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90e5bd0390a23f46b974aba1eaa4d4f
+      internalID: -581214241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_96
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 194
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46912b9a27916fd4384554fc86da868a
+      internalID: 1113987617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_97
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 194
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6376f1e8632b34092e583f3e9643fd
+      internalID: -192303386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_98
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 194
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efebadbcf8fb61b4d8aa909e1c2551ac
+      internalID: 963007161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_99
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 194
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b0a717a5ad28a4e9c3e34240889197
+      internalID: -35336104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_100
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 194
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21da7ab9d75c4014f97a1af8c2bd8871
+      internalID: 1740856328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_101
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 194
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce63a286b420a7469c06634582fafc3
+      internalID: 386110524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_102
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 194
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28104e45921012c44ba44af3d9941d75
+      internalID: 581743066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_103
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 194
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2bd88f9e5dbf94fb473a2cb4fdf4c6
+      internalID: 69727776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_104
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 149
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3606adb59f4889b44b73cc4163399821
+      internalID: 1408919452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_105
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 149
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792991708f5256940a689e056b0bc78a
+      internalID: -825707363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_106
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 149
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeab0cc92c715ce48836afe9d029f2b9
+      internalID: -995797243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_107
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 149
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8bdb5a1844604429acbe09deb66816
+      internalID: 1957419505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_108
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 149
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfc5a07fae581449b17b0e1a542d8a1
+      internalID: 134737288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_109
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 149
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8efde56ad928d47bbee4ae65f59814
+      internalID: 484404417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_110
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 149
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ef0105b716eca47960d153e9b9cfcb
+      internalID: -74322508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_111
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 149
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c107de8fa9d93dc45a0ef99331b68a4c
+      internalID: -191518324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_112
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 149
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bbecd04945944469db9efdea49210d
+      internalID: 1830363334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_113
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 149
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e16939fd45b9a40bc571c08d7f6571
+      internalID: 701475728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_114
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 149
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15ed8d07f5930546b14cfc25ed3df36
+      internalID: -721812129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_115
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 149
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4bf67d2ddfb3b4ab18f51a289a5bd1
+      internalID: 1360482076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_116
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 149
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937623c35d6fb0f4b9e975a27c4a1d20
+      internalID: -707810264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_117
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 149
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e84f9c3fee96bc489e392938afda8cd
+      internalID: -956242126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_118
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 149
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8498758d3d8d10343bf915a25822edbb
+      internalID: -9191143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_119
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 149
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a72d67efbe98d4b87e4a3e5ca26467
+      internalID: 209247833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_120
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 149
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ddbb5d08e3cba4ea391765eef9698c
+      internalID: 1171919796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_121
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 149
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3fac1b6a56e064e9f490c0eae1bbcd
+      internalID: 936440157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_122
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 104
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a7284c60d61fe419fb43c91da6f14c
+      internalID: -287423038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_123
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 104
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da003876c78f43a41bd3afa53c002b31
+      internalID: -973712061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_124
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 104
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8054117ffed0d4849b3a2da2c03ab446
+      internalID: 1508019062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_125
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 104
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a1695440d4ecb4fa10ea890c5028eb
+      internalID: 2020221423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_126
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 104
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079cf48fbc8493b41b7c9b673e8852b8
+      internalID: 1746081877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_127
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 104
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519a401d576a9b54987e76bf73ac1171
+      internalID: -1777953330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_128
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 104
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d06a81542c98e42bc538d74c5c495a
+      internalID: -217301439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_129
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 104
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3386fe2fef10b7d4d870d88ec81347c8
+      internalID: -962232460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_130
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 104
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5a18ff77e35024e890100da4ae71e3
+      internalID: -619136348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_131
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 104
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7233578742cdfe549b634e3eb1d01bb4
+      internalID: -1471789063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_132
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 104
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368372987cca9fd4f8a886be8e8a4fb3
+      internalID: -779388949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_133
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 104
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a5bf05936abcb41961fa3b68f7bfa7
+      internalID: 138763600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_134
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 104
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee95f749794ca564c8590ae4dcd9a1ed
+      internalID: 2131525312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_135
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 104
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb685f97b9ba6e43b8230e1ba8347da
+      internalID: 1629674482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_136
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 104
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44f4c918a22f724ab27c323358164b0
+      internalID: 2011273503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_137
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 104
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911cb09ab31f9044da889fbffdb4a48a
+      internalID: 1537403024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_138
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 104
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27639a4442e4290458abf1e0fc0361ee
+      internalID: -1593499080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_139
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 104
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83c8459fb4095a4e900ac1fc4462078
+      internalID: -1995234842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_140
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 58
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1d3e4ccb0abc948a1cd645ad8235cf
+      internalID: -510904938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_141
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 58
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc21ff83e66f60848836dd338e526920
+      internalID: -1827088929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_142
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 58
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52781385cd917eb49a56e421493c6177
+      internalID: -920191900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_143
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 58
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af422e58ddb5bd64da863112d2a5441f
+      internalID: -1147263461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_144
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 58
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb660fa9c4818e344a00d4da7e66cfa1
+      internalID: 576953449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_145
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 58
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933d41c125973144c9b50aea7585cdc4
+      internalID: -612799172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_146
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 58
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de4e2bbb57d36f49a624adac32eef35
+      internalID: -25919282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_147
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 58
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c234406607d384ebe4937e1ee24a2a
+      internalID: -1480458871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_148
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 58
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da13d8e3af51328468dc23a91aae2b90
+      internalID: -884335364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_149
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 58
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11054e4d86449e43acc977dde1a9e62
+      internalID: -1061365423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_150
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 58
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fd6290e86250e47bb767b3b19c5fe2
+      internalID: -2041560990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_151
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 58
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041307e44fe746440abb13a07bf9c4f3
+      internalID: -1219156733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_152
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 58
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5f1a8739fe63b4e83c600af16a7df6
+      internalID: -984481640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_153
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 58
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b207cd10b55eff84f881c9d8b90e8313
+      internalID: -551819788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_154
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 58
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeabc80616c40114f9b331805d631236
+      internalID: -2125297199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_155
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 58
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edac1ccda21bd0c4f87db0bfa66fe37c
+      internalID: 1635873725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_156
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 58
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c591eab015b428842baf138e8916d2bb
+      internalID: -1873920009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_157
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 58
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c82738dad3a614ba3fb2e53ac76a23
+      internalID: -208493269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_158
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 13
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f88103b889ce647a5014dd607771a6
+      internalID: -1347982736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_159
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 13
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d874cbc7e7e0f4995c7e3544ea645e
+      internalID: 1496740089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_160
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 13
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8facc8e93fefd441b5181d174528b00
+      internalID: 1799118385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_161
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 13
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abb41741a1aa7e47aa237ad01a10875
+      internalID: -772260763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_162
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 13
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f37d1e9cf45014bb6ec4cf4ab8d376
+      internalID: -1365889223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_163
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 13
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b221af21422cb5d408ffd066d4208d2a
+      internalID: 1359414030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_164
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 13
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7a003873d835b40948b4148f921086
+      internalID: 475050459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_165
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 13
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a8e6832dce88243930735db706bbd0
+      internalID: 1868153238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_166
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 13
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a9e32c22714184487ef768057f792f
+      internalID: -1322985757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_167
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 13
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9037ebc331d163543b71b08e8ec08092
+      internalID: 2091826705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_168
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 13
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ca522a44f7f5747a0c2dadcf0fd8cb
+      internalID: 774464150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_169
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 13
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa3aea4ef7d6764c8977c379ef9a3f8
+      internalID: 345496930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_170
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 13
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2470b93e5c6c5ed41b7e113115a365ff
+      internalID: 1268271339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_171
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 13
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ad6f345f692ca4da46d74c55abc00a
+      internalID: -334306012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_172
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 13
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc292d036d1f03c4b9e45d4f37f17fb0
+      internalID: -155668682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_173
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 13
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fe42b1fd4942f4fb6c0e058529b194
+      internalID: 26424100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_174
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 13
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c7e3b70d0eb92418dd109c2f2482f9
+      internalID: -685479132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameButtonsForGUIFREE_175
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 13
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66403ac614ad3d44e881bd64b3203a63
+      internalID: -1927763342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GameButtonsForGUIFREE_0: 11830717
+      GameButtonsForGUIFREE_1: 1660708146
+      GameButtonsForGUIFREE_10: 2042813825
+      GameButtonsForGUIFREE_100: 1740856328
+      GameButtonsForGUIFREE_101: 386110524
+      GameButtonsForGUIFREE_102: 581743066
+      GameButtonsForGUIFREE_103: 69727776
+      GameButtonsForGUIFREE_104: 1408919452
+      GameButtonsForGUIFREE_105: -825707363
+      GameButtonsForGUIFREE_106: -995797243
+      GameButtonsForGUIFREE_107: 1957419505
+      GameButtonsForGUIFREE_108: 134737288
+      GameButtonsForGUIFREE_109: 484404417
+      GameButtonsForGUIFREE_11: 1592424472
+      GameButtonsForGUIFREE_110: -74322508
+      GameButtonsForGUIFREE_111: -191518324
+      GameButtonsForGUIFREE_112: 1830363334
+      GameButtonsForGUIFREE_113: 701475728
+      GameButtonsForGUIFREE_114: -721812129
+      GameButtonsForGUIFREE_115: 1360482076
+      GameButtonsForGUIFREE_116: -707810264
+      GameButtonsForGUIFREE_117: -956242126
+      GameButtonsForGUIFREE_118: -9191143
+      GameButtonsForGUIFREE_119: 209247833
+      GameButtonsForGUIFREE_12: 1037006083
+      GameButtonsForGUIFREE_120: 1171919796
+      GameButtonsForGUIFREE_121: 936440157
+      GameButtonsForGUIFREE_122: -287423038
+      GameButtonsForGUIFREE_123: -973712061
+      GameButtonsForGUIFREE_124: 1508019062
+      GameButtonsForGUIFREE_125: 2020221423
+      GameButtonsForGUIFREE_126: 1746081877
+      GameButtonsForGUIFREE_127: -1777953330
+      GameButtonsForGUIFREE_128: -217301439
+      GameButtonsForGUIFREE_129: -962232460
+      GameButtonsForGUIFREE_13: -618595877
+      GameButtonsForGUIFREE_130: -619136348
+      GameButtonsForGUIFREE_131: -1471789063
+      GameButtonsForGUIFREE_132: -779388949
+      GameButtonsForGUIFREE_133: 138763600
+      GameButtonsForGUIFREE_134: 2131525312
+      GameButtonsForGUIFREE_135: 1629674482
+      GameButtonsForGUIFREE_136: 2011273503
+      GameButtonsForGUIFREE_137: 1537403024
+      GameButtonsForGUIFREE_138: -1593499080
+      GameButtonsForGUIFREE_139: -1995234842
+      GameButtonsForGUIFREE_14: -902651677
+      GameButtonsForGUIFREE_140: -510904938
+      GameButtonsForGUIFREE_141: -1827088929
+      GameButtonsForGUIFREE_142: -920191900
+      GameButtonsForGUIFREE_143: -1147263461
+      GameButtonsForGUIFREE_144: 576953449
+      GameButtonsForGUIFREE_145: -612799172
+      GameButtonsForGUIFREE_146: -25919282
+      GameButtonsForGUIFREE_147: -1480458871
+      GameButtonsForGUIFREE_148: -884335364
+      GameButtonsForGUIFREE_149: -1061365423
+      GameButtonsForGUIFREE_15: -362033328
+      GameButtonsForGUIFREE_150: -2041560990
+      GameButtonsForGUIFREE_151: -1219156733
+      GameButtonsForGUIFREE_152: -984481640
+      GameButtonsForGUIFREE_153: -551819788
+      GameButtonsForGUIFREE_154: -2125297199
+      GameButtonsForGUIFREE_155: 1635873725
+      GameButtonsForGUIFREE_156: -1873920009
+      GameButtonsForGUIFREE_157: -208493269
+      GameButtonsForGUIFREE_158: -1347982736
+      GameButtonsForGUIFREE_159: 1496740089
+      GameButtonsForGUIFREE_16: -36116277
+      GameButtonsForGUIFREE_160: 1799118385
+      GameButtonsForGUIFREE_161: -772260763
+      GameButtonsForGUIFREE_162: -1365889223
+      GameButtonsForGUIFREE_163: 1359414030
+      GameButtonsForGUIFREE_164: 475050459
+      GameButtonsForGUIFREE_165: 1868153238
+      GameButtonsForGUIFREE_166: -1322985757
+      GameButtonsForGUIFREE_167: 2091826705
+      GameButtonsForGUIFREE_168: 774464150
+      GameButtonsForGUIFREE_169: 345496930
+      GameButtonsForGUIFREE_17: -317143542
+      GameButtonsForGUIFREE_170: 1268271339
+      GameButtonsForGUIFREE_171: -334306012
+      GameButtonsForGUIFREE_172: -155668682
+      GameButtonsForGUIFREE_173: 26424100
+      GameButtonsForGUIFREE_174: -685479132
+      GameButtonsForGUIFREE_175: -1927763342
+      GameButtonsForGUIFREE_18: -147279492
+      GameButtonsForGUIFREE_19: 1283234218
+      GameButtonsForGUIFREE_2: 630798857
+      GameButtonsForGUIFREE_20: 922412593
+      GameButtonsForGUIFREE_21: 391351693
+      GameButtonsForGUIFREE_22: 1241847495
+      GameButtonsForGUIFREE_23: -1760332789
+      GameButtonsForGUIFREE_24: -1038362102
+      GameButtonsForGUIFREE_25: -1961148862
+      GameButtonsForGUIFREE_26: 62833314
+      GameButtonsForGUIFREE_27: -1788205137
+      GameButtonsForGUIFREE_28: 1258835151
+      GameButtonsForGUIFREE_29: 1566386168
+      GameButtonsForGUIFREE_3: 1966705557
+      GameButtonsForGUIFREE_30: -501705924
+      GameButtonsForGUIFREE_31: -1558166734
+      GameButtonsForGUIFREE_32: 507450168
+      GameButtonsForGUIFREE_33: 153451740
+      GameButtonsForGUIFREE_34: -1778866080
+      GameButtonsForGUIFREE_35: -1608767612
+      GameButtonsForGUIFREE_36: -1510695660
+      GameButtonsForGUIFREE_37: 386959909
+      GameButtonsForGUIFREE_38: -1667529730
+      GameButtonsForGUIFREE_39: -1267759191
+      GameButtonsForGUIFREE_4: 1626099451
+      GameButtonsForGUIFREE_40: -1303619772
+      GameButtonsForGUIFREE_41: 323779618
+      GameButtonsForGUIFREE_42: -1350833769
+      GameButtonsForGUIFREE_43: -1797592552
+      GameButtonsForGUIFREE_44: 1726807046
+      GameButtonsForGUIFREE_45: 2015325790
+      GameButtonsForGUIFREE_46: 509586204
+      GameButtonsForGUIFREE_47: -536139841
+      GameButtonsForGUIFREE_48: -1813245601
+      GameButtonsForGUIFREE_49: 19655705
+      GameButtonsForGUIFREE_5: -754593984
+      GameButtonsForGUIFREE_50: -69116372
+      GameButtonsForGUIFREE_51: 711898189
+      GameButtonsForGUIFREE_52: -1965663683
+      GameButtonsForGUIFREE_53: 1183756922
+      GameButtonsForGUIFREE_54: 1647436069
+      GameButtonsForGUIFREE_55: 1262464863
+      GameButtonsForGUIFREE_56: -1842774964
+      GameButtonsForGUIFREE_57: -239379261
+      GameButtonsForGUIFREE_58: -1803185725
+      GameButtonsForGUIFREE_59: 1395248096
+      GameButtonsForGUIFREE_6: -2051124280
+      GameButtonsForGUIFREE_60: 1152097404
+      GameButtonsForGUIFREE_61: -443706153
+      GameButtonsForGUIFREE_62: 1028940322
+      GameButtonsForGUIFREE_63: 102588989
+      GameButtonsForGUIFREE_64: 311401641
+      GameButtonsForGUIFREE_65: -247551857
+      GameButtonsForGUIFREE_66: 736851872
+      GameButtonsForGUIFREE_67: 1053580253
+      GameButtonsForGUIFREE_68: -1846668077
+      GameButtonsForGUIFREE_69: -648831527
+      GameButtonsForGUIFREE_7: 1463586748
+      GameButtonsForGUIFREE_70: 29167480
+      GameButtonsForGUIFREE_71: 124195627
+      GameButtonsForGUIFREE_72: -750483232
+      GameButtonsForGUIFREE_73: -1521308066
+      GameButtonsForGUIFREE_74: 906836212
+      GameButtonsForGUIFREE_75: 472309690
+      GameButtonsForGUIFREE_76: -1738213697
+      GameButtonsForGUIFREE_77: 132385452
+      GameButtonsForGUIFREE_78: -1896458991
+      GameButtonsForGUIFREE_79: 322419611
+      GameButtonsForGUIFREE_8: -2012807952
+      GameButtonsForGUIFREE_80: 206199521
+      GameButtonsForGUIFREE_81: -1428762360
+      GameButtonsForGUIFREE_82: -1226577965
+      GameButtonsForGUIFREE_83: -326742748
+      GameButtonsForGUIFREE_84: -715346927
+      GameButtonsForGUIFREE_85: 1210625907
+      GameButtonsForGUIFREE_86: -995732299
+      GameButtonsForGUIFREE_87: -1715319630
+      GameButtonsForGUIFREE_88: -1801724995
+      GameButtonsForGUIFREE_89: 1755087323
+      GameButtonsForGUIFREE_9: 1902085298
+      GameButtonsForGUIFREE_90: 1774508131
+      GameButtonsForGUIFREE_91: 1794983393
+      GameButtonsForGUIFREE_92: 1700834713
+      GameButtonsForGUIFREE_93: 1422733468
+      GameButtonsForGUIFREE_94: 2077939953
+      GameButtonsForGUIFREE_95: -581214241
+      GameButtonsForGUIFREE_96: 1113987617
+      GameButtonsForGUIFREE_97: -192303386
+      GameButtonsForGUIFREE_98: 963007161
+      GameButtonsForGUIFREE_99: -35336104
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
