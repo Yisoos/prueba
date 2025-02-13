@@ -1,144 +1,225 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerMovementController : MonoBehaviour
 {
-    // Variables para el movimiento del jugador
-    [Header("Movimiento")]
-    [Range(0, 10)] public float speed = 5.0f; // Velocidad de movimiento del jugador
-    [Range(0, 100)] public int pushSpeedDecrease; // Reducción de velocidad al empujar objetos
-    [Range(0, 200)] public float rotationSpeed = 100.0f; // Velocidad de rotación
-    [Range(0, 100)] public float jumpForce = 40; // Fuerza del salto
+    // Movement Variables
+    [Header("Movement Settings")]
+    [Tooltip("The movement speed of the player.")]
+    [Range(0, 10)] public float speed = 5.0f; // Player movement speed
+    [Tooltip("Speed reduction when pushing objects.")]
+    [Range(0, 100)] public int pushSpeedDecrease; // Speed reduction when pushing objects
+    [Tooltip("Speed reduction when crouching.")]
+    [Range(0, 100)] public int crouchSpeedDecrease; // Speed reduction when pushing objects
+    [Tooltip("Speed at which the player rotates.")]
+    [Range(0, 200)] public float rotationSpeed = 100.0f; // Rotation speed
+    [Tooltip("The force applied to the player's jump.")]
+    [Range(0, 50)] public float jumpForce = 40; // Jump force
+    [Tooltip("The transform of the camera used for aiming.")]
+    public Transform cameraAim;
 
-    // Variables para la interacción con el mundo
-    [Header("Interacción con el mundo")]
-    public Transform pushCheck; // Posición donde se verifican los objetos (asignable en el Inspector)
-    [Range(0, 5)] public float radius = 5f; // Radio de interacción con objetos
-    public Transform FloorCheck;
+    // Interaction Variables
+    [Header("World Interaction Settings")]
+    [Tooltip("Position used to check if there are objects in front of the player.")]
+    public Transform pushCheck; // Position for checking interactable objects
+    [Tooltip("Radius for object interaction.")]
+    [Range(0, 1)] public float pushRadius; // Interaction radius for objects
+    [Tooltip("Position to check if the player is grounded.")]
+    public Transform groundCheck;
+    [Tooltip("Radius for checking if the player is grounded.")]
+    [Range(0, 1)] public float groundRadius; // Ground check radius
+    [Tooltip("Position to check if the player under a low ceiling.")]
+    public Transform ceilingCheck;
+    [Tooltip("Radius for checking if player has to crouch.")]
+    [Range(0, 1)] public float ceilingRadius; // Ground check radius
 
-    private Animator animator; // Referencia al componente Animator para controlar las animaciones
+    // Player State and Physics
+    [HideInInspector] public bool isPushing; // Flag indicating if the player is pushing an object
+    [HideInInspector] public bool isGrounded; // Flag indicating if the player is on the ground
+    [HideInInspector] public bool isCrouching; // Flag indicating if the player is on the ground
+    private Animator animator; // Animator for animations
+    private Rigidbody rb; // Rigidbody for physics interactions
 
-    private float spin, x, z; // Variables para controlar la rotación y el movimiento en los ejes
-    [HideInInspector] public bool isPushing; // Bandera que indica si el jugador está empujando un objeto
-    [HideInInspector] public bool isJumping = false;
-
-    private Rigidbody rb; // Referencia al componente Rigidbody para aplicar la física
-
-    // Método de inicialización
+    // Private Movement Variables
+    private float spinY, spinX, x, z; // Variables for controlling rotation and movement
+    // Initialization Method
     private void Start()
     {
-        // Obtener las referencias a los componentes de Animator y Rigidbody
+        UnityEngine.Cursor.visible = false;
         animator = gameObject.GetComponent<Animator>();
         rb = gameObject.GetComponent<Rigidbody>();
     }
 
-    // Método que se ejecuta cada frame
+    // Update Method
     void Update()
     {
-        Walking(); // Controla el movimiento del jugador
-        StartCoroutine(Jumping()); // Controla el salto del jugador
-        Pushing(); // Controla la acción de empujar objetos
+        Walking(); // Controls the movement of the player
+        Crouching();
+        Spinning(); // Controls the player's rotation
+        Jumping(); // Controls the player's jump
+        Pushing(); // Handles object pushing action
+        Attack();
     }
 
-    // Método que se ejecuta en cada FixedUpdate (frame físico)
-    private void FixedUpdate()
-    {
-        // Desactivar la animación de salto cuando el salto ha terminado
-        animator.SetBool("Jumping", false);
-    }
-
-    // Método para controlar el movimiento del jugador
+    // Method to control walking (movement)
     public void Walking()
     {
-        // Obtener la entrada del usuario para la rotación y el movimiento
-        spin = Input.GetAxis("Spin"); // Rotación del jugador
-        x = Input.GetAxis("Horizontal"); // Movimiento en el eje X (izquierda/derecha)
-        z = Input.GetAxis("Vertical"); // Movimiento en el eje Z (adelante/atrás)
+        x = Input.GetAxis("Horizontal"); // Movement along the X axis
+        z = Input.GetAxis("Vertical"); // Movement along the Z axis
 
-        // Actualizar los valores en el Animator para controlar las animaciones
-        animator.SetFloat("SpeedX", !isPushing ? x : 0); // Si está empujando, no mueve en X
-        animator.SetFloat("SpeedZ", z); // Movimiento en el eje Z
+        // Set animator values for walking
+        animator.SetFloat("SpeedX", !isPushing ? x : 0); // Do not move in X if pushing
+        animator.SetFloat("SpeedZ", z); // Z axis movement
 
-        // Rotar el jugador
-        transform.Rotate(0, spin * Time.deltaTime * rotationSpeed, 0);
-
-        // Mover el jugador
-        transform.Translate((!isPushing ? x : 0) * Time.deltaTime * speed, 0, z * Time.deltaTime * (!isPushing ? speed : speed * (1 - pushSpeedDecrease / 100.0f)));
+        // Move the player
+        transform.Translate( (!isPushing || !isCrouching ? x : 0) * Time.deltaTime * speed,0, z * Time.deltaTime * (isPushing ? speed * (1 - pushSpeedDecrease / 100.0f): isCrouching? speed * (1 - crouchSpeedDecrease / 100.0f): speed ));
     }
 
-    // Método para controlar el salto del jugador
-    public IEnumerator Jumping()
+    // Method to handle rotation (spinning)
+    public void Spinning()
     {
-        // Verificar si se ha presionado el botón de salto y si no está empujando
-        if (Input.GetButtonDown("Jump") && Mathf.Approximately(rb.velocity.y, 0) && !isJumping && !isPushing)
+        
+        spinY = Input.GetAxis("Mouse X"); // Y-axis rotation
+        spinX = Input.GetAxis("Mouse Y"); // X-axis rotation
+
+        // Rotate the player (do not rotate if pushing)
+        transform.Rotate(0, isPushing ? 0 : (spinY * Time.deltaTime * (rotationSpeed * 5)), 0);
+
+        // Handle camera rotation in Y when pushing
+        if (isPushing)
         {
-            isJumping = true;
-            animator.SetBool("Jumping", true);
-            yield return new WaitForSeconds(.2f);
-            rb.AddForce(Vector3.up * (jumpForce/5), ForceMode.Impulse);
-            Debug.Log("Jump force applied! Y velocity before jump: " + rb.velocity.y);
-            isJumping = false;
+            cameraAim.transform.Rotate(0, spinY * Time.deltaTime * rotationSpeed * 5, 0, Space.Self);
+        }
+        else if (cameraAim.transform.localEulerAngles.y != 0)
+        {
+            float newYAngle = Mathf.MoveTowardsAngle(cameraAim.transform.localEulerAngles.y, 0, (rotationSpeed * 5) * Time.deltaTime);
+            cameraAim.transform.localEulerAngles = new Vector3(cameraAim.transform.localEulerAngles.x, newYAngle, 0);
         }
 
-        else
-        {
-            Debug.Log("No se encontraron colliders dentro del rango."); // Imprimir si no hay objetos para interactuar
-        }
+        // Control camera's X-axis rotation
+        cameraAim.transform.Rotate(
+            cameraAim.transform.eulerAngles.x > 180 && cameraAim.transform.eulerAngles.x <= 350 ? 0.1f :
+            cameraAim.transform.eulerAngles.x < 180 && cameraAim.transform.eulerAngles.x >= 75 ? -0.1f :
+            -(spinX * Time.deltaTime * rotationSpeed), 0, 0);
     }
 
-    // Método para controlar la acción de empujar objetos
-    public void Pushing()
+    // Gizmo Drawing for interaction radius
+    private void OnDrawGizmos()
     {
-        // Detectar interacción con los objetos frente al jugador
-        DetectInteractionFormFront();
-
-        // Terminar de empujar cuando se suelta el botón de empuje
-        if (Input.GetButtonUp("Push"))
-        {
-            animator.SetBool("Pushing", false); // Desactivar animación de empuje
-            isPushing = false; // Dejar de empujar
-        }
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(pushCheck.position, pushRadius);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(groundCheck.position, groundRadius);
+        Gizmos.DrawWireSphere(ceilingCheck.position, ceilingRadius);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(cameraAim.position, cameraAim.transform.localScale.x);
     }
 
-    // Método para detectar objetos frente al jugador
-    public void DetectInteractionFormFront()
+    // Jumping method
+    public void Jumping()
     {
-        // Realizar la comprobación de OverlapSphere para detectar objetos dentro del radio de interacción
-        Collider[] hitColliders = Physics.OverlapSphere(pushCheck.position, radius);
+        Collider[] hitColliders = Physics.OverlapSphere(groundCheck.position, groundRadius);
 
-        // Si hay objetos dentro del rango, los imprimimos en la consola
-        if (hitColliders.Length > 0)
+        if (!isGrounded && hitColliders.Length > 0)
         {
             foreach (Collider hitCollider in hitColliders)
             {
-                Debug.Log("Objeto detectado: " + hitCollider.gameObject.name); // Imprimir el nombre del objeto detectado
-
-                // Obtener componentes de empuje de los objetos detectados
-                PushingObject pushingObject = hitCollider.transform.GetComponent<PushingObject>();
-                PushingParent pushingParent = hitCollider.transform.GetComponent<PushingParent>();
-
-                // Si el objeto tiene un componente PushingParent, interactuar con él
-                if (pushingParent != null)
+                if (hitCollider.transform.gameObject != this.gameObject)
                 {
-                    pushingParent.PushObject(this, pushCheck);
-                }
-
-                // Si el objeto tiene un componente de empuje o PushingParent, permitir empujarlo
-                if (pushingObject != null || pushingParent != null)
-                {
-                    if (Input.GetButtonDown("Push"))
-                    {
-                        animator.SetBool("Pushing", true); // Activar animación de empuje
-                        isPushing = true; // El jugador está empujando
-                        // animator.SetTrigger("InteruptEmote"); // Puede descomentar si se desea interrumpir la animación de emoción
-                    }
+                    isGrounded = true;
+                    break;
                 }
             }
         }
         else
         {
-            Debug.Log("No se encontraron colliders dentro del rango."); // Imprimir si no hay objetos para interactuar
+            isGrounded = false;
+        }
+
+        if (Input.GetButton("Jump") && isGrounded && !isCrouching)
+        {
+            isGrounded = false;
+            animator.SetTrigger("Jumping");
+            rb.AddForce(Vector3.up * (jumpForce), ForceMode.Impulse);
+        }
+    }
+
+    public void Crouching()
+    {
+
+        if (Input.GetButtonDown("Crouch") && isGrounded)
+        {
+            isCrouching = true;
+        }
+        if (Input.GetButtonUp("Crouch"))
+        {
+            isCrouching = false;
+        }
+
+        if (!isCrouching)
+        {
+            Collider[] colliders = Physics.OverlapSphere(ceilingCheck.position, ceilingRadius);
+            // If the character has a ceiling preventing them from standing up, keep them crouching
+            foreach (Collider collider in colliders)
+            {
+                if (collider.gameObject != this.gameObject && isGrounded && !collider.isTrigger)
+                {
+                    isCrouching = true;
+                    break;
+                }
+            }
+        }
+        animator.SetBool("Crouching", isCrouching);
+    }
+
+    // Pushing method for interacting with objects
+    public void Pushing()
+    {
+        DetectInteractionFormFront(); // Check for objects in front of the player
+
+        if (Input.GetButtonUp("Push"))
+        {
+            animator.SetBool("Pushing", false); // Deactivate pushing animation
+            isPushing = false; // Stop pushing
+        }
+    }
+
+    public void Attack()
+    {
+        if (Input.GetButtonDown("Attack") && !isPushing && !isCrouching && isGrounded)
+        {
+            animator.SetTrigger("Attack"); // Deactivate pushing animation
+        }
+    }
+
+    // Method to detect objects in front of the player for interaction
+    public void DetectInteractionFormFront()
+    {
+        Collider[] hitColliders = Physics.OverlapSphere(pushCheck.position, pushRadius);
+
+        if (hitColliders.Length > 0)
+        {
+            foreach (Collider hitCollider in hitColliders)
+            {
+                PushingObject pushingObject = hitCollider.transform.GetComponent<PushingObject>();
+                PushingParent pushingParent = hitCollider.transform.GetComponent<PushingParent>();
+
+                if (pushingParent != null)
+                {
+                    pushingParent.PushObject(this, pushCheck);
+                }
+
+                if (pushingObject != null || pushingParent != null)
+                {
+                    if (Input.GetButtonDown("Push"))
+                    {
+                        animator.SetBool("Pushing", true);
+                        isPushing = true;
+                    }
+                }
+            }
         }
     }
 }

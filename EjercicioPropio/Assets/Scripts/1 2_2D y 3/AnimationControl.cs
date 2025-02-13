@@ -29,7 +29,7 @@ public class AnimationControl : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
             jump = true;
 
-        if (Input.GetButton("Jump"))
+        if (Input.GetButton("Jump") && !controller.m_Grounded)
             animator.SetBool("Jump", true);
 
         // Calculate vertical movement for jump animation (allowing negative values)
