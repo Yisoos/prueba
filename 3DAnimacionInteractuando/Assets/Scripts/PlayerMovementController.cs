@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,37 +9,37 @@ public class PlayerMovementController : MonoBehaviour
     // Movement Variables
     [Header("Movement Settings")]
     [Tooltip("The movement speed of the player.")]
-    [Range(0, 10)] public float speed = 5.0f; // Player movement speed
+    [Space(15), Range(0, 10)] public float speed = 5.0f; // Player movement speed
     [Tooltip("Speed reduction when pushing objects.")]
-    [Range(0, 100)] public int pushSpeedDecrease; // Speed reduction when pushing objects
+    [Space(15), Range(0, 100)] public int pushSpeedDecrease; // Speed reduction when pushing objects
     [Tooltip("Speed reduction when crouching.")]
     [Range(0, 100)] public int crouchSpeedDecrease; // Speed reduction when pushing objects
     [Tooltip("Speed at which the player rotates.")]
-    [Range(0, 200)] public float rotationSpeed = 100.0f; // Rotation speed
-    [Tooltip("The force applied to the player's jump.")]
-    [Range(0, 50)] public float jumpForce = 40; // Jump force
+    [Space(15), Range(0, 200)] public float rotationSpeed = 100.0f; // Rotation speed
     [Tooltip("The transform of the camera used for aiming.")]
     public Transform cameraAim;
+    [Tooltip("The force applied to the player's jump.")]
+    [Space(15),Range(0, 10)] public float jumpForce = 40; // Jump force
 
     // Interaction Variables
     [Header("World Interaction Settings")]
     [Tooltip("Position used to check if there are objects in front of the player.")]
-    public Transform pushCheck; // Position for checking interactable objects
+    [Space(15)] public Transform pushCheck; // Position for checking interactable objects
     [Tooltip("Radius for object interaction.")]
     [Range(0, 1)] public float pushRadius; // Interaction radius for objects
     [Tooltip("Position to check if the player is grounded.")]
-    public Transform groundCheck;
+    [Space(15)] public Transform groundCheck;
     [Tooltip("Radius for checking if the player is grounded.")]
     [Range(0, 1)] public float groundRadius; // Ground check radius
     [Tooltip("Position to check if the player under a low ceiling.")]
-    public Transform ceilingCheck;
+    [Space(15)] public Transform ceilingCheck;
     [Tooltip("Radius for checking if player has to crouch.")]
     [Range(0, 1)] public float ceilingRadius; // Ground check radius
 
     // Player State and Physics
     [HideInInspector] public bool isPushing; // Flag indicating if the player is pushing an object
-    [HideInInspector] public bool isGrounded; // Flag indicating if the player is on the ground
-    [HideInInspector] public bool isCrouching; // Flag indicating if the player is on the ground
+    [HideInInspector] public bool isGrounded, shouldJump; // Flag indicating if the player is on the ground
+    [HideInInspector] public bool isCrouching, crouchInput; // Flag indicating if the player is on the ground
     private Animator animator; // Animator for animations
     private Rigidbody rb; // Rigidbody for physics interactions
 
@@ -63,6 +64,17 @@ public class PlayerMovementController : MonoBehaviour
         Attack();
     }
 
+    private void FixedUpdate()
+    {
+        if (shouldJump)
+        {
+            rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
+            rb.AddForce(Vector3.up * (jumpForce * 2), ForceMode.Impulse);
+            isGrounded = false;
+            shouldJump = false;
+        }
+    }
+
     // Method to control walking (movement)
     public void Walking()
     {
@@ -74,7 +86,7 @@ public class PlayerMovementController : MonoBehaviour
         animator.SetFloat("SpeedZ", z); // Z axis movement
 
         // Move the player
-        transform.Translate( (!isPushing || !isCrouching ? x : 0) * Time.deltaTime * speed,0, z * Time.deltaTime * (isPushing ? speed * (1 - pushSpeedDecrease / 100.0f): isCrouching? speed * (1 - crouchSpeedDecrease / 100.0f): speed ));
+        transform.Translate( (!isPushing && !isCrouching ? x : 0) * Time.deltaTime * speed,0, z * Time.deltaTime * (isPushing ? speed * (1 - pushSpeedDecrease / 100.0f): isCrouching? speed * (1 - crouchSpeedDecrease / 100.0f): speed ));
     }
 
     // Method to handle rotation (spinning)
@@ -121,56 +133,72 @@ public class PlayerMovementController : MonoBehaviour
     public void Jumping()
     {
         Collider[] hitColliders = Physics.OverlapSphere(groundCheck.position, groundRadius);
+        bool foundGround = false;
 
-        if (!isGrounded && hitColliders.Length > 0)
+        foreach (Collider hitCollider in hitColliders)
         {
-            foreach (Collider hitCollider in hitColliders)
+            if (hitCollider.transform.gameObject != this.gameObject && !hitCollider.isTrigger)
             {
-                if (hitCollider.transform.gameObject != this.gameObject)
+                foundGround = true;
+                break;
+            }
+        }
+
+        // Use Raycast as a backup check
+        if (!foundGround)
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, Vector3.down, out hit, groundRadius + 0.1f))
+            {
+                if (hit.collider.gameObject != this.gameObject && !hit.collider.isTrigger)
                 {
-                    isGrounded = true;
-                    break;
+                    foundGround = true;
                 }
             }
         }
-        else
-        {
-            isGrounded = false;
-        }
 
+        isGrounded = foundGround;
+
+        // Jumping Logic
         if (Input.GetButton("Jump") && isGrounded && !isCrouching)
         {
-            isGrounded = false;
-            animator.SetTrigger("Jumping");
-            rb.AddForce(Vector3.up * (jumpForce), ForceMode.Impulse);
+            shouldJump = true;
         }
+
+        animator.SetBool("Jumping", !isGrounded);
     }
+
 
     public void Crouching()
     {
-
-        if (Input.GetButtonDown("Crouch") && isGrounded)
+        if (Input.GetButton("Crouch") && isGrounded)
         {
-            isCrouching = true;
+            crouchInput = true;
         }
         if (Input.GetButtonUp("Crouch"))
         {
-            isCrouching = false;
+            crouchInput = false;
         }
 
-        if (!isCrouching)
+        if (!crouchInput) 
         {
+            bool foundCollider = false;
             Collider[] colliders = Physics.OverlapSphere(ceilingCheck.position, ceilingRadius);
             // If the character has a ceiling preventing them from standing up, keep them crouching
-            foreach (Collider collider in colliders)
+            for(int i = 0; i < colliders.Length; i++)
             {
-                if (collider.gameObject != this.gameObject && isGrounded && !collider.isTrigger)
+                if (colliders[i].gameObject != this.gameObject && !colliders[i].isTrigger)
                 {
-                    isCrouching = true;
-                    break;
+                    foundCollider = true;
                 }
             }
+            isCrouching = foundCollider;
         }
+        else
+        {
+            isCrouching = true;
+        }
+        Debug.Log(isCrouching);
         animator.SetBool("Crouching", isCrouching);
     }
 
